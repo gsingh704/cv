@@ -1,0 +1,193 @@
+{
+  "basics": {
+    "name": "Gurjant Singh",
+    "headline": "Software Developer",
+    "email": "gurjantaulakh704@gmail.com",
+    "phone": "+34 632857297",
+    "location": "Vic, Spain",
+    "url": {
+      "label": "",
+      "href": "https://gsingh704.github.io/cv/"
+    },
+    "customFields": [],
+    "picture": {
+      "url": "https://storage.rxresu.me/clrxr58ee04qulbd7i3jqeo2r/pictures/clrxr58ee04qulbd7i3jqeo2r.jpg",
+      "alt": "Gurjant Singh"
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "Summary",
+      "description": "A web developer with exceptional problem-solving skills. I thrive on tackling challenges and am constantly seeking new opportunities for learning. Currently studying, I look forward to putting my skills to the test in a dynamic and enriching environment."
+    },
+    "education": {
+      "name": "Education",
+      "items": [
+        {
+          "title": "Institut Jaume Callís de Vic",
+          "subtitle": "Educació Secundària Obligatòria",
+          "location": "Vic, Spain",
+          "score": "",
+          "date": "2020",
+          "description": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "title": "Institut Cirviànum de Torelló",
+          "subtitle": "CFGM Sistemes Microinformàtics i Xarxes",
+          "location": "Torelló, Spain",
+          "score": "8.48",
+          "date": "09/2020 - 06/2022",
+          "description": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "title": "Institut Cirviànum de Torelló",
+          "subtitle": "CFGM esenvolupament d'Aplicacions Web",
+          "location": "Torelló, Spain",
+          "score": "8.78",
+          "date": "09/2022 - 06/2024",
+          "description": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "experience": {
+      "name": "Experience",
+      "items": [
+        {
+          "title": "ELFOS SOFTWARE",
+          "subtitle": "Junior Programmer",
+          "location": "Vic",
+
+          "description": "<li>Upgrading Delphi from version 10 to 11.<li>Redesign of the program.<li>Implementation of the TMS Web core Framework.",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "title": "VIDEO SERVICE DIGITAL",
+          "subtitle": "Intern",
+          "location": "Vic",
+          "date": "09/2021 - 06/2022",
+          "description": "<li>Equipment repair and maintenance. <li>Hardware and software support for clients. <li>Finding and solving problems with hardware and software.",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "languages": {
+      "name": "Languages",
+      "items": [
+        {
+          "title": "Punjabi",
+          "subtitle": 5
+        },
+        {
+          "title": "Hindi",
+          "subtitle": 5
+        },
+        {
+          "title": "English",
+          "subtitle": 5
+        },
+        {
+          "title": "Catalan",
+          "subtitle": 4
+        },
+        {
+          "title": "Spanish",
+          "subtitle": 4
+        }
+      ]
+    },
+    "profiles": {
+      "name": "Profiles",
+      "items": [
+        {
+          "title": "LinkedIn",
+          "subtitle": "gsa704",
+          "icon": "linkedin",
+          "url": {
+            "label": "",
+            "href": "https://www.linkedin.com/in/gsa704/"
+          }
+        },
+        {
+          "title": "Github",
+          "subtitle": "gsingh704",
+          "icon": "github",
+          "url": {
+            "label": "",
+            "href": "https://github.com/gsingh704"
+          }
+        }
+      ]
+    },
+    "projects": {
+      "name": "Projects",
+      "items": []
+    },
+    "skills": {
+      "name": "Skills",
+      "items": []
+    },
+
+    "volunteer": {
+      "name": "Volunteering",
+      "items": [
+        {
+          "title": "CÀRITAS ARXIPRESTAL ",
+          "subtitle": "Volunteer",
+          "location": "Vic",
+          "date": "12/2020 - 05/2021",
+          "summary": "<li>Enter data into the Caritas database <li>Help employees with computers <li>Translation tasks (Catalan-English, English-Catalan).",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "interests": {
+      "name": "Interests",
+      "items": []
+    }
+  },
+  "metadata": {
+    "template": "glalie",
+    "layout": [
+      [
+        [
+          "summary",
+          "experience",
+          "education",
+          "projects",
+          "volunteer",
+          "references"
+        ],
+        [
+          "profiles",
+          "skills",
+          "interests",
+          "certifications",
+          "awards",
+          "publications",
+          "languages"
+        ]
+      ]
+    ]
+  }
+}
