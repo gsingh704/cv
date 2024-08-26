@@ -55,6 +55,7 @@ body {
 
 .section h2 {
     margin-top: 0;
+    margin-bottom: 0;
     color: #00ffea;
     border-bottom: 2px solid #ff00ff;
 
@@ -96,10 +97,48 @@ a:hover {
     flex-wrap: wrap;
 }
 
+.subtitle a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    color: #ff00ff;
+    text-decoration: none;
+}
+
+.subtitle a:hover {
+    color: #00ffea;
+}
+
+.item p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.item{
+    margin-top: 10px;
+}
+
 .section:hover {
     background-color: #000;
     /* smooth transition */
     transition: background-color 0.5s;
-    
-
 }
+
+
+.item-image{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item-image img {
+    height: 100px;
+    width: auto;
+}
+

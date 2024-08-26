@@ -18,7 +18,11 @@
   "sections": {
     "summary": {
       "name": "Summary",
-      "description": "A web developer with exceptional problem-solving skills. I thrive on tackling challenges and am constantly seeking new opportunities for learning. Currently studying, I look forward to putting my skills to the test in a dynamic and enriching environment."
+      "items": [
+        {
+          "description": "A web developer with exceptional problem-solving skills. I thrive on tackling challenges and am constantly seeking new opportunities for learning. Currently studying, I look forward to putting my skills to the test in a dynamic and enriching environment."
+        }
+      ]
     },
     "education": {
       "name": "Education",
@@ -29,11 +33,7 @@
           "location": "Vic, Spain",
           "score": "",
           "date": "2020",
-          "description": "",
-          "url": {
-            "label": "",
-            "href": ""
-          }
+          "description": ""
         },
         {
           "title": "Institut Cirviànum de Torelló",
@@ -41,11 +41,7 @@
           "location": "Torelló, Spain",
           "score": "8.48",
           "date": "09/2020 - 06/2022",
-          "description": "",
-          "url": {
-            "label": "",
-            "href": ""
-          }
+          "description": ""
         },
         {
           "title": "Institut Cirviànum de Torelló",
@@ -53,11 +49,7 @@
           "location": "Torelló, Spain",
           "score": "8.78",
           "date": "09/2022 - 06/2024",
-          "description": "",
-          "url": {
-            "label": "",
-            "href": ""
-          }
+          "description": ""
         }
       ]
     },
@@ -68,23 +60,15 @@
           "title": "ELFOS SOFTWARE",
           "subtitle": "Junior Programmer",
           "location": "Vic",
-
-          "description": "<li>Upgrading Delphi from version 10 to 11.<li>Redesign of the program.<li>Implementation of the TMS Web core Framework.",
-          "url": {
-            "label": "",
-            "href": ""
-          }
+          "date": "01/2023 - 03/2023",
+          "description": "<li>Upgrading Delphi from version 10 to 11.<li>Redesign of the program.<li>Implementation of the TMS Web core Framework."
         },
         {
           "title": "VIDEO SERVICE DIGITAL",
           "subtitle": "Intern",
           "location": "Vic",
           "date": "09/2021 - 06/2022",
-          "description": "<li>Equipment repair and maintenance. <li>Hardware and software support for clients. <li>Finding and solving problems with hardware and software.",
-          "url": {
-            "label": "",
-            "href": ""
-          }
+          "description": "<li>Equipment repair and maintenance. <li>Hardware and software support for clients. <li>Finding and solving problems with hardware and software."
         }
       ]
     },
@@ -142,9 +126,51 @@
     },
     "skills": {
       "name": "Skills",
-      "items": []
+      "items": [
+        {
+          "title": "Frontend",
+          "img": [
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
+              "alt": "HTML5"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
+              "alt": "HTML5"
+            }
+          ],
+          "description": "TODO"
+        },
+        {
+          "title": "Backend",
+          "img": [
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
+              "alt": "HTML5"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
+              "alt": "HTML5"
+            }
+          ],
+          "description": "TODO"
+        },
+        {
+          "title": "DataBases",
+          "img": [
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
+              "alt": "HTML5"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
+              "alt": "HTML5"
+            }
+          ],
+          "description": "TODO"
+        }
+      ]
     },
-
     "volunteer": {
       "name": "Volunteering",
       "items": [
@@ -153,11 +179,7 @@
           "subtitle": "Volunteer",
           "location": "Vic",
           "date": "12/2020 - 05/2021",
-          "summary": "<li>Enter data into the Caritas database <li>Help employees with computers <li>Translation tasks (Catalan-English, English-Catalan).",
-          "url": {
-            "label": "",
-            "href": ""
-          }
+          "summary": "<li>Enter data into the Caritas database <li>Help employees with computers <li>Translation tasks (Catalan-English, English-Catalan)."
         }
       ]
     },

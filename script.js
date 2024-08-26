@@ -49,25 +49,30 @@ fetch('en.json')
                 <h2>${section}</h2>
             `;
 
-            console.log(sectionData.items);
+    
 
             for (let item in sectionData.items) {
                 const itemData = sectionData.items[item];
                 const itemElement = document.createElement('div');
                 itemElement.className = 'item';
+                const url = itemData.url;
+                
                 itemElement.innerHTML = `
-                    <div class="subtitle">
-                        <h3>${itemData.title || ''}</h3>
-                        <h4>${itemData.subtitle || ''}</h4>
-                    </div>
-                    <div class="subtitle">
-                        <p>${itemData.date || ''}</p>
-                        <p>${itemData.location || ''}</p>
-                    </div>
-                    <p>${itemData.score || ''}</p>
-                    <p>${itemData.description || ''}</p>
+                <div class="subtitle">
+                ${url && url.href ? `<a href="${url.href}" target="_blank">` : ''}
+                    ${itemData.title ? `<h3>${itemData.title}</h3>` : ''}
+                    ${itemData.subtitle ? `<h4>${itemData.subtitle}</h4>` : ''}
+                ${url && url.href ? `</a>` : ''}
+            </div>
+            <div class="subtitle">
+                ${itemData.date ? `<p>${itemData.date}</p>` : ''}
+                ${itemData.location ? `<p>${itemData.location}</p>` : ''}
+            </div>
+            ${itemData.score ? `<p>${itemData.score}</p>` : ''}
+            ${itemData.img ? `<div class="item-image">${itemData.img.map(img => `<img src="${img.src}" alt="${img.alt}" />`).join('')}</div>` : ''}
+            ${itemData.description ? `<p>${itemData.description}</p>` : ''}
                 `;
-
+                
                 sectionElement.appendChild(itemElement);
             }
 
