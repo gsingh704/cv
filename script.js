@@ -2,7 +2,7 @@
 var theme = localStorage.getItem('theme');
 if (theme) {
     document.getElementById('themeSelect').value = theme;
-    document.getElementById('themeStylesheet').href = theme + '.css';
+    document.getElementById('themeStylesheet').href = 'css/'+ theme + '.css';
 }
 
 
@@ -10,7 +10,7 @@ document.getElementById('themeSelect').addEventListener('change', function () {
     var theme = this.value;
     var stylesheet = document.getElementById('themeStylesheet');
 
-    stylesheet.href = theme + '.css';
+    stylesheet.href = 'css/'+ theme + '.css';
 
     //add theme to local storage
     localStorage.setItem('theme', theme);

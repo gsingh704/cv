@@ -1,0 +1,114 @@
+/* Windows 95 Inspired Theme */
+
+@import url('https://fonts.googleapis.com/css2?family=MS+Sans+Serif&display=swap');
+
+body {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+    font-family: 'MS Sans Serif', sans-serif;
+    background-color: teal;
+    color: black;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.header img {
+
+
+    height: 150px;
+    margin-right: 20px;
+
+}
+
+.section {
+    background-color:  silver;
+  
+    margin-bottom: 20px;
+    padding: 1px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid #393939;
+    border-bottom: 2px solid #393939;
+}
+
+
+.section h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    background-color: #000181;
+    padding: 2px;
+    text-align: center;
+    
+    text-transform: capitalize;
+}
+
+.section h3 {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.section h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.section p {
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* padding all the things in section as group except h2 */
+.section h3 , .section h4 , .section p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.item-image{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item-image img {
+    height: 100px;
+    width: auto;
+}
+

@@ -57,6 +57,13 @@
       "name": "Experience",
       "items": [
         {
+          "title": "SEIDOR",
+          "subtitle": "SAP Programmer",
+          "location": "Vic",
+          "date": "01/2024 - ",
+          "description": "<li>Transform from old solutions to new ones like Fiori, SAP cloud edition.<li>Implement new functionalities for the client.<li>Work with various SAP technologies like ABAP, Adobe Forms, Fiori, ABAP in Cloud, etc.<li>Building and maintaining apps built with Node and Javascript"
+        },
+        {
           "title": "ELFOS SOFTWARE",
           "subtitle": "Junior Programmer",
           "location": "Vic",
@@ -69,31 +76,6 @@
           "location": "Vic",
           "date": "09/2021 - 06/2022",
           "description": "<li>Equipment repair and maintenance. <li>Hardware and software support for clients. <li>Finding and solving problems with hardware and software."
-        }
-      ]
-    },
-    "languages": {
-      "name": "Languages",
-      "items": [
-        {
-          "title": "Punjabi",
-          "subtitle": 5
-        },
-        {
-          "title": "Hindi",
-          "subtitle": 5
-        },
-        {
-          "title": "English",
-          "subtitle": 5
-        },
-        {
-          "title": "Catalan",
-          "subtitle": 4
-        },
-        {
-          "title": "Spanish",
-          "subtitle": 4
         }
       ]
     },
@@ -128,46 +110,174 @@
       "name": "Skills",
       "items": [
         {
-          "title": "Frontend",
+          "title": "Frontend Development",
           "img": [
             {
-              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
+              "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
               "alt": "HTML5"
             },
             {
-              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
-              "alt": "HTML5"
+              "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+              "alt": "CSS3"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+              "alt": "JavaScript"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+              "alt": "React"
             }
           ],
-          "description": "TODO"
+          "description": "I have strong knowledge of HTML, CSS, and JavaScript. I have also worked with React and Next.js frameworks to build modern, responsive web applications."
         },
         {
-          "title": "Backend",
+          "title": "Backend Development",
           "img": [
             {
-              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
-              "alt": "HTML5"
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
+              "alt": "PHP"
             },
             {
-              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
-              "alt": "HTML5"
+              "src": "https://upload.wikimedia.org/wikipedia/commons/6/66/JavaFX_Logo.png",
+              "alt": "JavaFX"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+              "alt": "Python"
             }
           ],
-          "description": "TODO"
+          "description": "I am proficient in Java and Python, with experience in using JavaFX for UI. I also have strong skills in PHP and have worked on web applications using backend frameworks."
         },
         {
-          "title": "DataBases",
+          "title": "Web Design",
           "img": [
             {
-              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
-              "alt": "HTML5"
+              "src": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
+              "alt": "Bootstrap"
             },
             {
-              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
-              "alt": "HTML5"
+              "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+              "alt": "TailwindCSS"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+              "alt": "Figma"
             }
           ],
-          "description": "TODO"
+          "description": "I have expertise in CSS frameworks like Bootstrap and TailwindCSS. I am familiar with design patterns and tools like Figma for creating professional UI/UX designs."
+        },
+        {
+          "title": "Databases",
+          "img": [
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg",
+              "alt": "MySQL"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
+              "alt": "PostgreSQL"
+            },
+            {
+              "src": "https://www.beonesolutions.com/wp-content/uploads/2022/11/SAP-HANA-Logo.jpg",
+              "alt": "SAP Hana"
+            }
+          ],
+          "description": "I have solid knowledge of SQL, with experience working with databases like MySQL, PostgreSQL,SAP Hana and MariaDB. I am also skilled in connecting these databases to various programming languages."
+        },
+        {
+          "title": "DevOps",
+          "img": [
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
+              "alt": "Git"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg",
+              "alt": "Docker"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg",
+              "alt": "Microsoft Azure"
+            }
+          ],
+          "description": "I am experienced in deploying websites and managing infrastructure using Git, GitHub, Docker, Docker Compose, and Microsoft Azure. I also have experience with Oracle Cloud."
+        },
+        {
+          "title": "Delphi Development",
+          "img": [
+            {
+              "src": "https://d2ohlsp9gwqc7h.cloudfront.net/images/logos/logo-page/delphi-logo-1024.png",
+              "alt": "Delphi"
+            },
+            {
+              "src": "https://www.tmssoftware.com/site/img/TMS_FAVICON_RGB_high_white.png",
+              "alt": "TMS Web Core"
+            }
+          ],
+          "description": "I have experience working with Delphi, upgrading versions, and implementing frameworks like TMS Web Core. I also have experience updating various plugins and libraries."
+        },
+        {
+          "title": "SAP",
+          "img": [
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg",
+              "alt": "SAP"
+            }
+          ],
+          "description": "I have worked with several SAP products including SAP S/4 HANA, Fiori, and the SAP Cloud Platform. I am experienced in SAP GUI, Business One, and ABAP development."
+        },
+        {
+          "title": "Languages",
+          "img": [
+            {
+              "src": "https://flagpedia.net/data/flags/w1160/gb.webp",
+              "alt": "English"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png",
+              "alt": "Hindi"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Catalonia.svg/1280px-Flag_of_Catalonia.svg.png",
+              "alt": "Catalan"
+            },
+            {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg",
+              "alt": "Spanish"
+            },
+            {
+              "src": "https://static.thenounproject.com/png/3177556-200.png",
+              "alt": "Punjabi"
+            }
+          ],
+          "description": "I am fluent in English, Hindi, Punjabi, Catalan, and Spanish. I have achieved a C2 level in English through the IELTS exam."
+        }
+      ]
+    },
+
+    "languages": {
+      "name": "Languages",
+      "items": [
+        {
+          "title": "Punjabi",
+          "subtitle": 5
+        },
+        {
+          "title": "Hindi",
+          "subtitle": 5
+        },
+        {
+          "title": "English",
+          "subtitle": 5
+        },
+        {
+          "title": "Catalan",
+          "subtitle": 4
+        },
+        {
+          "title": "Spanish",
+          "subtitle": 4
         }
       ]
     },
@@ -179,7 +289,7 @@
           "subtitle": "Volunteer",
           "location": "Vic",
           "date": "12/2020 - 05/2021",
-          "summary": "<li>Enter data into the Caritas database <li>Help employees with computers <li>Translation tasks (Catalan-English, English-Catalan)."
+          "description": "<li>Enter data into the Caritas database <li>Help employees with computers <li>Translation tasks (Catalan-English, English-Catalan)."
         }
       ]
     },
@@ -187,29 +297,5 @@
       "name": "Interests",
       "items": []
     }
-  },
-  "metadata": {
-    "template": "glalie",
-    "layout": [
-      [
-        [
-          "summary",
-          "experience",
-          "education",
-          "projects",
-          "volunteer",
-          "references"
-        ],
-        [
-          "profiles",
-          "skills",
-          "interests",
-          "certifications",
-          "awards",
-          "publications",
-          "languages"
-        ]
-      ]
-    ]
   }
 }
