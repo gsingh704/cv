@@ -5,10 +5,16 @@
     "email": "gurjantaulakh704@gmail.com",
     "phone": "+34 632857297",
     "location": "Vic, Spain",
-    "url": {
-      "label": "",
-      "href": "https://gsingh704.github.io/cv/"
-    },
+    "links": [
+      {
+        "label": "Website",
+        "href": "https://gurjant.fyi"
+      },
+      {
+        "label": "View CV",
+        "href": "https://rxresu.me/gurjantaulakh704/en"
+      }
+    ],
     "customFields": [],
     "picture": {
       "url": "https://storage.rxresu.me/clrxr58ee04qulbd7i3jqeo2r/pictures/clrxr58ee04qulbd7i3jqeo2r.jpg",
@@ -28,11 +34,11 @@
       "name": "Education",
       "items": [
         {
-          "title": "Institut Jaume Callís de Vic",
-          "subtitle": "Educació Secundària Obligatòria",
-          "location": "Vic, Spain",
-          "score": "",
-          "date": "2020",
+          "title": "Institut Cirviànum de Torelló",
+          "subtitle": "CFGS Desenvolupament d'Aplicacions Web",
+          "location": "Torelló, Spain",
+          "score": "8.78",
+          "date": "09/2022 - 06/2024",
           "description": ""
         },
         {
@@ -43,12 +49,13 @@
           "date": "09/2020 - 06/2022",
           "description": ""
         },
+        
         {
-          "title": "Institut Cirviànum de Torelló",
-          "subtitle": "CFGM esenvolupament d'Aplicacions Web",
-          "location": "Torelló, Spain",
-          "score": "8.78",
-          "date": "09/2022 - 06/2024",
+          "title": "Institut Jaume Callís de Vic",
+          "subtitle": "Educació Secundària Obligatòria",
+          "location": "Vic, Spain",
+          "score": "",
+          "date": "2020",
           "description": ""
         }
       ]
@@ -139,8 +146,8 @@
               "alt": "PHP"
             },
             {
-              "src": "https://upload.wikimedia.org/wikipedia/commons/6/66/JavaFX_Logo.png",
-              "alt": "JavaFX"
+              "src": "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png",
+              "alt": "Java"
             },
             {
               "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
@@ -255,7 +262,6 @@
         }
       ]
     },
-
     "languages": {
       "name": "Languages",
       "items": [

@@ -1,0 +1,9 @@
+select {
+    /* background-color: #f0f0f0;
+    border: 1px solid #ccc; */
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    float: right;
+    margin-right: 10px;
+}

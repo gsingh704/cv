@@ -3,6 +3,9 @@ var theme = localStorage.getItem('theme');
 if (theme) {
     document.getElementById('themeSelect').value = theme;
     document.getElementById('themeStylesheet').href = 'css/'+ theme + '.css';
+}else {
+    document.getElementById('themeSelect').value = 'default';
+    document.getElementById('themeStylesheet').href = 'css/default.css';
 }
 
 
@@ -32,7 +35,9 @@ fetch('en.json')
                 <h1 class="glitch" data-text="${basics.name}">${basics.name}</h1>
                 <p>${basics.headline}</p>
                 <p>${basics.email} | ${basics.phone} | ${basics.location}</p>
-                <p><a href="${basics.url.href}" target="_blank">Website</a></p>
+                <p class="links">
+                    ${basics.links.map(link => `<a href="${link.href}" target="_blank">${link.label}</a>`).join('')}
+                </p>
             </div>
         `;
         resume.appendChild(header);
