@@ -9,13 +9,13 @@ body {
     color: black;
 }
 
-.header {
+.headerDiv {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
-.header img {
+.headerDiv img {
 
 
     height: 150px;

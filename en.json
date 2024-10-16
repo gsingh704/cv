@@ -1,5 +1,5 @@
 {
-  "basics": {
+  "header": {
     "name": "Gurjant Singh",
     "headline": "Software Developer",
     "email": "gurjantaulakh704@gmail.com",
@@ -21,7 +21,7 @@
       "alt": "Gurjant Singh"
     }
   },
-  "sections": {
+  "main": {
     "summary": {
       "name": "Summary",
       "items": [
@@ -30,62 +30,7 @@
         }
       ]
     },
-    "education": {
-      "name": "Education",
-      "items": [
-        {
-          "title": "Institut Cirviànum de Torelló",
-          "subtitle": "CFGS Desenvolupament d'Aplicacions Web",
-          "location": "Torelló, Spain",
-          "score": "8.78",
-          "date": "09/2022 - 06/2024",
-          "description": ""
-        },
-        {
-          "title": "Institut Cirviànum de Torelló",
-          "subtitle": "CFGM Sistemes Microinformàtics i Xarxes",
-          "location": "Torelló, Spain",
-          "score": "8.48",
-          "date": "09/2020 - 06/2022",
-          "description": ""
-        },
-        
-        {
-          "title": "Institut Jaume Callís de Vic",
-          "subtitle": "Educació Secundària Obligatòria",
-          "location": "Vic, Spain",
-          "score": "",
-          "date": "2020",
-          "description": ""
-        }
-      ]
-    },
-    "experience": {
-      "name": "Experience",
-      "items": [
-        {
-          "title": "SEIDOR",
-          "subtitle": "SAP Programmer",
-          "location": "Vic",
-          "date": "01/2024 - ",
-          "description": "<li>Transform from old solutions to new ones like Fiori, SAP cloud edition.<li>Implement new functionalities for the client.<li>Work with various SAP technologies like ABAP, Adobe Forms, Fiori, ABAP in Cloud, etc.<li>Building and maintaining apps built with Node and Javascript"
-        },
-        {
-          "title": "ELFOS SOFTWARE",
-          "subtitle": "Junior Programmer",
-          "location": "Vic",
-          "date": "01/2023 - 03/2023",
-          "description": "<li>Upgrading Delphi from version 10 to 11.<li>Redesign of the program.<li>Implementation of the TMS Web core Framework."
-        },
-        {
-          "title": "VIDEO SERVICE DIGITAL",
-          "subtitle": "Intern",
-          "location": "Vic",
-          "date": "09/2021 - 06/2022",
-          "description": "<li>Equipment repair and maintenance. <li>Hardware and software support for clients. <li>Finding and solving problems with hardware and software."
-        }
-      ]
-    },
+    
     "profiles": {
       "name": "Profiles",
       "items": [
@@ -93,25 +38,112 @@
           "title": "LinkedIn",
           "subtitle": "gsa704",
           "icon": "linkedin",
-          "url": {
-            "label": "",
-            "href": "https://www.linkedin.com/in/gsa704/"
-          }
+          "url": "https://www.linkedin.com/in/gsa704/"
         },
         {
           "title": "Github",
           "subtitle": "gsingh704",
           "icon": "github",
-          "url": {
-            "label": "",
-            "href": "https://github.com/gsingh704"
-          }
+          "url":  "https://github.com/gsingh704"
         }
       ]
     },
     "projects": {
       "name": "Projects",
-      "items": []
+      "items": [
+        {
+          "title": "AppsToGo",
+          "url":  "https://www.github.com/gsingh704/AppsToGo",
+          "img": [
+            {
+              "src": "https://github.com/gsingh704/AppsToGo/raw/main/assets/screenshot/home_dark.png",
+              "alt": "Home",
+              "class" : "screenshot"
+            },
+            {
+              "src": "https://github.com/gsingh704/AppsToGo/raw/main/assets/screenshot/download_dark.png",
+              "alt": "Download Page",
+              "class" : "screenshot"
+            }
+          ],
+          "tags": [
+            "Linux",
+            "Python",
+            "GTK4"
+          ],
+          "links": [
+            {
+              "label": "Github",
+              "href": "https://github.com/gsingh704/AppsToGo"
+            }
+          ],
+          "description": "AppToGo is an application that allows you to run Appimages in portable mode, so that they can be run on almost all modern linux distributions without the need for installation, and with all the data. It also lets user download Appimages from AppImageHub. Its written in Python and GTK4 and I have used LibAdwaita widget make it modern."
+        },
+        {
+          "title": "Geography Quiz",
+          "url": "https://geo-704.netlify.app/",
+          "img": [
+            {
+              "src": "https://github.com/gsingh704/AppsToGo/raw/main/assets/screenshot/home_dark.png",
+              "alt": "Home",
+              "class" : "screenshot"
+            },
+            {
+              "src": "https://github.com/gsingh704/AppsToGo/raw/main/assets/screenshot/download_dark.png",
+              "alt": "Download Page",
+              "class" : "screenshot"
+            }
+          ],
+          "tags": [
+            "React",
+            "Vite",
+            "APIs"
+          ],
+          "links": [
+            {
+              "label": "Website",
+              "href": "https://geo-704.netlify.app/"
+            },
+            {
+              "label": "Github",
+              "href": "https://github.com/gsingh704/geo_quiz"
+            }
+          ],
+          "description": "Geography Quiz is a web app that lets you test your knowledge of geography. It uses React and Vite. The games include guessing Flags, Capital , Coats of Arms and which country has more population. It uses different APIs to get data."
+        },
+        {
+          "title": "ForoCity",
+          "url": "http://forocity.gurjant.fyi/",
+          "img": [
+            {
+              "src": "https://github.com/gsingh704/AppsToGo/raw/main/assets/screenshot/home_dark.png",
+              "alt": "Home",
+              "class" : "screenshot"
+            },
+            {
+              "src": "https://github.com/gsingh704/AppsToGo/raw/main/assets/screenshot/download_dark.png",
+              "alt": "Download Page",
+              "class" : "screenshot"
+            }
+          ],
+          "tags": [
+            "React",
+            "InertiaJS",
+            "Laravel"
+          ],
+          "links": [
+            {
+              "label": "Website",
+              "href": "http://forocity.gurjant.fyi"
+            },
+            {
+              "label": "Github",
+              "href": "https://github.com/gsingh704/ForoCity"
+            }
+          ],
+          "description": "ForoCity is a web forum that allows users to create and participate in discussion topics of their city. It has groups divided by cities and topics divided by categories (By using Tags). User can create posts for each topic and comment on them. It has also votes so that user can search for the most popular topics. It also have direct messages between users."
+        }
+      ]
     },
     "skills": {
       "name": "Skills",
@@ -262,6 +294,61 @@
         }
       ]
     },
+    "education": {
+      "name": "Education",
+      "items": [
+        {
+          "title": "Institut Cirviànum de Torelló",
+          "subtitle": "CFGS Desenvolupament d'Aplicacions Web",
+          "location": "Torelló, Spain",
+          "score": "8.78",
+          "date": "09/2022 - 06/2024",
+          "description": ""
+        },
+        {
+          "title": "Institut Cirviànum de Torelló",
+          "subtitle": "CFGM Sistemes Microinformàtics i Xarxes",
+          "location": "Torelló, Spain",
+          "score": "8.48",
+          "date": "09/2020 - 06/2022",
+          "description": ""
+        },
+        {
+          "title": "Institut Jaume Callís de Vic",
+          "subtitle": "Educació Secundària Obligatòria",
+          "location": "Vic, Spain",
+          "score": "",
+          "date": "2020",
+          "description": ""
+        }
+      ]
+    },
+    "experience": {
+      "name": "Experience",
+      "items": [
+        {
+          "title": "SEIDOR",
+          "subtitle": "SAP Programmer",
+          "location": "Vic",
+          "date": "01/2024 - ",
+          "description": "<li>Transform from old solutions to new ones like Fiori, SAP cloud edition.<li>Implement new functionalities for the client.<li>Work with various SAP technologies like ABAP, Adobe Forms, Fiori, ABAP in Cloud, etc.<li>Building and maintaining apps built with Node and Javascript"
+        },
+        {
+          "title": "ELFOS SOFTWARE",
+          "subtitle": "Junior Programmer",
+          "location": "Vic",
+          "date": "01/2023 - 03/2023",
+          "description": "<li>Upgrading Delphi from version 10 to 11.<li>Redesign of the program.<li>Implementation of the TMS Web core Framework."
+        },
+        {
+          "title": "VIDEO SERVICE DIGITAL",
+          "subtitle": "Intern",
+          "location": "Vic",
+          "date": "09/2021 - 06/2022",
+          "description": "<li>Equipment repair and maintenance. <li>Hardware and software support for clients. <li>Finding and solving problems with hardware and software."
+        }
+      ]
+    },
     "languages": {
       "name": "Languages",
       "items": [
@@ -303,5 +390,8 @@
       "name": "Interests",
       "items": []
     }
+  },
+  "metdaata": {
+    "order": {}
   }
 }

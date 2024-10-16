@@ -2,8 +2,8 @@
 var theme = localStorage.getItem('theme');
 if (theme) {
     document.getElementById('themeSelect').value = theme;
-    document.getElementById('themeStylesheet').href = 'css/'+ theme + '.css';
-}else {
+    document.getElementById('themeStylesheet').href = 'css/' + theme + '.css';
+} else {
     document.getElementById('themeSelect').value = 'default';
     document.getElementById('themeStylesheet').href = 'css/default.css';
 }
@@ -13,74 +13,89 @@ document.getElementById('themeSelect').addEventListener('change', function () {
     var theme = this.value;
     var stylesheet = document.getElementById('themeStylesheet');
 
-    stylesheet.href = 'css/'+ theme + '.css';
+    stylesheet.href = 'css/' + theme + '.css';
 
     //add theme to local storage
     localStorage.setItem('theme', theme);
 });
-
 fetch('en.json')
     .then(response => response.json())
     .then(data => {
         const resume = document.getElementById('resume');
 
-        const { basics, sections } = data;
+        const { header, main } = data;
 
-        // Header
-        const header = document.createElement('div');
-        header.className = 'header';
-        header.innerHTML = `
-            <img src="${basics.picture.url}" alt="${basics.name}" />
+        // headerDiv
+        const headerDiv = document.createElement('div');
+        headerDiv.className = 'headerDiv';
+        headerDiv.innerHTML = `
+            <img src="${header.picture.url}" alt="${header.name}" />
             <div>
-                <h1 class="glitch" data-text="${basics.name}">${basics.name}</h1>
-                <p>${basics.headline}</p>
-                <p>${basics.email} | ${basics.phone} | ${basics.location}</p>
+                <h1 class="glitch" data-text="${header.name}">${header.name}</h1>
+                <p>${header.headline}</p>
+                <p>${header.email} | ${header.phone} | ${header.location}</p>
                 <p class="links">
-                    ${basics.links.map(link => `<a href="${link.href}" target="_blank">${link.label}</a>`).join('')}
+                    ${header.links.map(link => `<a href="${link.href}" target="_blank">${link.label}</a>`).join('')}
                 </p>
             </div>
         `;
-        resume.appendChild(header);
+        resume.appendChild(headerDiv);
 
         // Summary
 
-        // Loop through all sections where item length is greater than 0
-        for (let section in sections) {
-            const sectionData = sections[section];
+        // Loop through all main where item length is greater than 0
+        for (let section in main) {
+            const sectionData = main[section];
 
             const sectionElement = document.createElement('div');
             sectionElement.className = 'section';
+            sectionElement.classList.add('section', section);
             sectionElement.innerHTML = `
                 <h2>${section}</h2>
             `;
 
-    
+            // Create the item_list container
+            const itemListElement = document.createElement('div');
+            itemListElement.className = 'item_list';
 
             for (let item in sectionData.items) {
                 const itemData = sectionData.items[item];
                 const itemElement = document.createElement('div');
                 itemElement.className = 'item';
                 const url = itemData.url;
-                
+
                 itemElement.innerHTML = `
                 <div class="subtitle">
-                ${url && url.href ? `<a href="${url.href}" target="_blank">` : ''}
-                    ${itemData.title ? `<h3>${itemData.title}</h3>` : ''}
-                    ${itemData.subtitle ? `<h4>${itemData.subtitle}</h4>` : ''}
-                ${url && url.href ? `</a>` : ''}
-            </div>
-            <div class="subtitle">
-                ${itemData.date ? `<p>${itemData.date}</p>` : ''}
-                ${itemData.location ? `<p>${itemData.location}</p>` : ''}
-            </div>
-            ${itemData.score ? `<p>${itemData.score}</p>` : ''}
-            ${itemData.img ? `<div class="item-image">${itemData.img.map(img => `<img src="${img.src}" alt="${img.alt}" />`).join('')}</div>` : ''}
-            ${itemData.description ? `<p>${itemData.description}</p>` : ''}
+                    ${url ? `<a href="${url}" target="_blank">` : ''}
+                        ${itemData.title ? `<h3>${itemData.title}</h3>` : ''}
+                    ${url ? `</a>` : ''}
+                    ${url ? `<a href="${url}" target="_blank">` : ''}
+                        ${itemData.subtitle ? `<h3>${itemData.subtitle}</h3>` : ''}
+                    ${url ? `</a>` : ''}
+                    ${itemData.tags ? 
+                        `<div class="item-tags"> ${itemData.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}</div> ` 
+                        : ''}
+                </div>
+                <div class="subtitle">
+                    ${itemData.date ? `<p>${itemData.date}</p>` : ''}
+                    ${itemData.location ? `<p>${itemData.location}</p>` : ''}
+                </div>
+                ${itemData.score ? `<p>${itemData.score}</p>` : ''}
+                ${itemData.img ? `<div class="item-image">${itemData.img.map(img => `<img src="${img.src}" alt="${img.alt}" class="${img.class}" />`).join('')}</div>` : ''}
+                ${itemData.description ? `<p>${itemData.description}</p>` : ''}
+                ${itemData.links ? `<p class="links">
+                ${itemData.links.map(link => `<a href="${link.href}" target="_blank">${link.label}</a>`).join('')}
+               </p>` : ''}
                 `;
-                
-                sectionElement.appendChild(itemElement);
+
+                // Append each itemElement to the item_list
+                itemListElement.appendChild(itemElement);
             }
 
+            // Append the item_list to the sectionElement
+            sectionElement.appendChild(itemListElement);
+
+            // Append the sectionElement to the resume
             resume.appendChild(sectionElement);
         }
     })
