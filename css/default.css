@@ -1,5 +1,5 @@
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 }
 
@@ -162,3 +162,7 @@ body {
     margin: 0 !important;
 }
 
+.phone{
+    /* no breaking the text */
+    white-space: nowrap;
+}
