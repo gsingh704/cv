@@ -12,3 +12,7 @@ body{
     max-width: 1200px;
     padding: 10px;
 }
+.phone{
+    /* no breaking the text */
+    white-space: nowrap;
+}

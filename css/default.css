@@ -162,7 +162,3 @@ body {
     margin: 0 !important;
 }
 
-.phone{
-    /* no breaking the text */
-    white-space: nowrap;
-}
