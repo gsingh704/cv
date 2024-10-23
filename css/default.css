@@ -36,7 +36,7 @@ body {
     border-radius: 5px;
 }
 .section {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 15px;
     background-color: #ffffff;
     border-radius: 5px;
@@ -82,7 +82,7 @@ body {
 }
 
 .item{
-    margin-top: 10px;
+    margin-top: 0px;
 
 }
 /* item except last */
