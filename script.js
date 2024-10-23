@@ -30,7 +30,7 @@ fetch('en.json')
         headerDiv.className = 'headerDiv';
         headerDiv.innerHTML = `
             <img src="${header.picture.url}" alt="${header.name}" />
-            <div>
+            <div class="header-details">
                 <h1 class="glitch" data-text="${header.name}">${header.name}</h1>
                 <p>${header.headline}</p>
                 <a href="mailto:${header.email}">${header.email}</a> | <a href="tel:${header.phone}">${header.phone}</a> | ${header.location}

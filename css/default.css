@@ -5,10 +5,11 @@ body {
 
 .headerDiv {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     margin-bottom: 20px;
     padding-bottom: 10px;
+    flex-wrap: wrap;
 }
 .headerDiv img {
     border-radius: 20px;
@@ -17,15 +18,14 @@ body {
 }
 .headerDiv h1 {
     margin: 0;
-    font-size: 28px;
 }
-.headerDiv p {
-    margin: 5px 0;
-    font-size: 16px;
+ .headerDiv p {
+    margin: 0;
 }
 .headerDiv a {
     text-decoration: none;
 }
+
 .links {
     display: flex;
     /* align-items:  flex-start;
