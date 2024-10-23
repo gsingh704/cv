@@ -42,9 +42,8 @@ body {
 }
 .links {
     display: flex;
-    /* align-items:  flex-start;
-    justify-content:first baseline; */
     gap: 10px;
+    padding-top: 5px;
 }
 .links a{
     background-color: #ff00ff;
