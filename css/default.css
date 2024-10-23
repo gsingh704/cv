@@ -108,6 +108,11 @@ body {
     flex-wrap: wrap;
     gap: 10px;
 }
+
+.item-image img {
+    height: 60px;
+    width: auto;
+}
 .item > .links{
     display: flex;
     align-items: center;
@@ -120,10 +125,6 @@ body {
     text-decoration: none;
 }
 
-.item-image img {
-    height: 60px;
-    width: auto;
-}
 .item-tags{
     display: flex;
     align-items: center;

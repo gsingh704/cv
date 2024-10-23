@@ -33,7 +33,7 @@ fetch('en.json')
             <div>
                 <h1 class="glitch" data-text="${header.name}">${header.name}</h1>
                 <p>${header.headline}</p>
-                <p>${header.email} | ${header.phone} | ${header.location}</p>
+                <a href="mailto:${header.email}">${header.email}</a> | <a href="tel:${header.phone}">${header.phone}</a> | ${header.location}
                 <p class="links">
                     ${header.links.map(link => `<a href="${link.href}" target="_blank">${link.label}</a>`).join('')}
                 </p>

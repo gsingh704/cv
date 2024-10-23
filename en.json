@@ -7,10 +7,6 @@
     "location": "Vic, Spain",
     "links": [
       {
-        "label": "Website",
-        "href": "https://gurjant.fyi"
-      },
-      {
         "label": "View CV",
         "href": "https://rxresu.me/gurjantaulakh704/en"
       }
@@ -84,13 +80,13 @@
           "url": "https://geo-704.netlify.app/",
           "img": [
             {
-              "src": "https://github.com/gsingh704/AppsToGo/raw/main/assets/screenshot/home_dark.png",
+              "src": "./img/quiz_home.png",
               "alt": "Home",
               "class" : "screenshot"
             },
             {
-              "src": "https://github.com/gsingh704/AppsToGo/raw/main/assets/screenshot/download_dark.png",
-              "alt": "Download Page",
+              "src": "./img/quiz_game.png",
+              "alt": "Inside a Game",
               "class" : "screenshot"
             }
           ],
@@ -116,13 +112,13 @@
           "url": "http://forocity.gurjant.fyi/",
           "img": [
             {
-              "src": "https://github.com/gsingh704/AppsToGo/raw/main/assets/screenshot/home_dark.png",
-              "alt": "Home",
+              "src": "./img/foro_home.png",
+              "alt": "ForoCity Home",
               "class" : "screenshot"
             },
             {
-              "src": "https://github.com/gsingh704/AppsToGo/raw/main/assets/screenshot/download_dark.png",
-              "alt": "Download Page",
+              "src": "./img/foro_post.png",
+              "alt": "Inside Posts",
               "class" : "screenshot"
             }
           ],
@@ -385,10 +381,6 @@
           "description": "<li>Enter data into the Caritas database <li>Help employees with computers <li>Translation tasks (Catalan-English, English-Catalan)."
         }
       ]
-    },
-    "interests": {
-      "name": "Interests",
-      "items": []
     }
   },
   "metdaata": {
