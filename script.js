@@ -70,7 +70,7 @@ fetch('en.json')
                         ${itemData.title ? `<h3>${itemData.title}</h3>` : ''}
                     ${url ? `</a>` : ''}
                     ${url ? `<a href="${url}" target="_blank">` : ''}
-                        ${itemData.subtitle ? `<h3>${itemData.subtitle}</h3>` : ''}
+                        ${itemData.subtitle ? `<h3 class="sub">${itemData.subtitle}</h3>` : ''}
                     ${url ? `</a>` : ''}
                     ${itemData.tags ? 
                         `<div class="item-tags"> ${itemData.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}</div> ` 

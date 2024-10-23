@@ -116,6 +116,10 @@ a:hover {
     color: #00ffea;
 }
 
+.sub{
+    color: #ff00ff !important;
+}
+
 .item p{
     margin-top: 2px;
     margin-bottom: 2px;
@@ -192,8 +196,8 @@ a:hover {
     /* background-color: white; */
     border-radius: 5px;
     flex-grow: 1;
-    flex-basis: 350px;
-    max-width: 400px;
+    flex-basis: 300px;
+    max-width: 350px;
     padding: 10px;
     box-sizing: border-box;
     border: 1px solid;
