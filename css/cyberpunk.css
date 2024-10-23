@@ -189,8 +189,6 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    padding: 10px;
-}
 
 .skills > .item_list > div {
     /* background-color: white; */
@@ -202,4 +200,5 @@ a:hover {
     box-sizing: border-box;
     border: 1px solid;
     border-color: #ff00ff;
+    margin: 0 !important;
 }
