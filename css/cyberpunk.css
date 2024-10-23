@@ -10,7 +10,6 @@ body {
 .headerDiv {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
     border-bottom: 2px solid #00ffea;
     padding-bottom: 10px;
     flex-wrap: wrap;
@@ -178,11 +177,11 @@ a:hover {
     gap: 10px;
 }
 .tag{
-    background-color: #6f6cff17;
-    color: #6f6cff;
-    padding: 5px 10px;
+    background-color: #00ffea59;
+    color: #00ffea;
+    padding: 5px;
     border-radius: 5px;
-    border: 2px solid #6f6cff;
+    border: 2px solid #00ffea;
 }
 .skills > .item_list {
     display: flex;

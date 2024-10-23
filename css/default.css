@@ -6,8 +6,6 @@ body {
 .headerDiv {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    margin-bottom: 20px;
     padding-bottom: 10px;
     flex-wrap: wrap;
 }
@@ -139,7 +137,7 @@ body {
 .tag{
     background-color: #6f6cff17;
     color: #6f6cff;
-    padding: 5px 10px;
+    padding: 5px;
     border-radius: 5px;
     border: 2px solid #6f6cff;
 }
