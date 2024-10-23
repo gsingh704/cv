@@ -37,13 +37,14 @@ body {
 }
 .section {
     margin-bottom: 10px;
-    padding: 15px;
+    /* padding: 15px; */
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
    
 }
 .section h2 {
+    padding: 10px 10px 0px 10px ;
     margin: 0;
     font-size: 24px;
     text-transform: uppercase;
@@ -82,8 +83,8 @@ body {
 }
 
 .item{
-    margin-top: 10px;
-
+    /* margin-top: 10px; */
+    padding: 15px;
 }
 /* item except last */
 .item:not(:last-child) {
@@ -148,6 +149,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    padding: 10px;
 }
 
 .skills > .item_list > div {
