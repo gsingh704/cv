@@ -33,7 +33,7 @@ fetch('en.json')
             <div class="header-details">
                 <h1 class="glitch" data-text="${header.name}">${header.name}</h1>
                 <p>${header.headline}</p>
-                <a href="mailto:${header.email}">${header.email}</a> | <a href="tel:${header.phone}" class="phone">${header.phone}</a> | ${header.location}
+                <a <class="nowrap" href="mailto:${header.email}">${header.email}</a> | <a href="tel:${header.phone}" class="nowrap">${header.phone}</a> | <span class="nowrap">${header.location}</span>
                 <p class="links">
                     ${header.links.map(link => `<a href="${link.href}" target="_blank">${link.label}</a>`).join('')}
                 </p>
@@ -72,8 +72,8 @@ fetch('en.json')
                     ${url ? `<a href="${url}" target="_blank">` : ''}
                         ${itemData.subtitle ? `<h3 class="sub">${itemData.subtitle}</h3>` : ''}
                     ${url ? `</a>` : ''}
-                    ${itemData.tags ? 
-                        `<div class="item-tags"> ${itemData.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}</div> ` 
+                    ${itemData.tags ?
+                        `<div class="item-tags"> ${itemData.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}</div> `
                         : ''}
                 </div>
                 <div class="subtitle">
