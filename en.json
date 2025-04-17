@@ -13,43 +13,31 @@
     ],
     "customFields": [],
     "picture": {
-      "url": "https://storage.rxresu.me/clrxr58ee04qulbd7i3jqeo2r/pictures/clrxr58ee04qulbd7i3jqeo2r.jpg",
+      "href": "https://storage.rxresu.me/clrxr58ee04qulbd7i3jqeo2r/pictures/clrxr58ee04qulbd7i3jqeo2r.jpg",
       "alt": "Gurjant Singh"
-    }
+    },
+    "summary": "A web developer with exceptional problem-solving skills. I thrive on tackling challenges and am constantly seeking new opportunities for learning. Currently studying, I look forward to putting my skills to the test in a dynamic and enriching environment."
   },
   "main": {
-    "summary": {
-      "name": "Summary",
-      "items": [
-        {
-          "description": "A web developer with exceptional problem-solving skills. I thrive on tackling challenges and am constantly seeking new opportunities for learning. Currently studying, I look forward to putting my skills to the test in a dynamic and enriching environment."
-        }
-      ]
-    },
-    
-    "profiles": {
-      "name": "Profiles",
-      "items": [
+    "profiles": [
         {
           "title": "LinkedIn",
           "subtitle": "gsa704",
           "icon": "linkedin",
-          "url": "https://www.linkedin.com/in/gsa704/"
+          "href": "https://www.linkedin.com/in/gsa704/"
         },
         {
           "title": "Github",
           "subtitle": "gsingh704",
           "icon": "github",
-          "url":  "https://github.com/gsingh704"
+          "href":  "https://github.com/gsingh704"
         }
       ]
-    },
-    "projects": {
-      "name": "Projects",
-      "items": [
+    ,
+    "projects": [
         {
           "title": "AppsToGo",
-          "url":  "https://www.github.com/gsingh704/AppsToGo",
+          "href":  "https://www.github.com/gsingh704/AppsToGo",
           "img": [
             {
               "src": "https://github.com/gsingh704/AppsToGo/raw/main/assets/screenshot/home_dark.png",
@@ -77,7 +65,7 @@
         },
         {
           "title": "Geography Quiz",
-          "url": "https://geo-704.netlify.app/",
+          "href": "https://geo-704.netlify.app/",
           "img": [
             {
               "src": "./img/quiz_home.png",
@@ -109,7 +97,7 @@
         },
         {
           "title": "ForoCity",
-          "url": "http://forocity.gurjant.fyi/",
+          "href": "http://forocity.gurjant.fyi/",
           "img": [
             {
               "src": "./img/foro_home.png",
@@ -139,11 +127,8 @@
           ],
           "description": "ForoCity is a web forum that allows users to create and participate in discussion topics of their city. It has groups divided by cities and topics divided by categories (By using Tags). User can create posts for each topic and comment on them. It has also votes so that user can search for the most popular topics. It also have direct messages between users."
         }
-      ]
-    },
-    "skills": {
-      "name": "Skills",
-      "items": [
+      ],
+    "skills":[
         {
           "title": "Frontend Development",
           "img": [
@@ -288,11 +273,8 @@
           ],
           "description": "I am fluent in English, Hindi, Punjabi, Catalan, and Spanish. I have achieved a C2 level in English through the IELTS exam."
         }
-      ]
-    },
-    "education": {
-      "name": "Education",
-      "items": [
+      ],
+    "education":[
         {
           "title": "Institut Cirviànum de Torelló",
           "subtitle": "CFGS Desenvolupament d'Aplicacions Web",
@@ -317,11 +299,8 @@
           "date": "2020",
           "description": ""
         }
-      ]
-    },
-    "experience": {
-      "name": "Experience",
-      "items": [
+      ],
+    "experience": [
         {
           "title": "SEIDOR",
           "subtitle": "SAP Programmer",
@@ -343,11 +322,8 @@
           "date": "09/2021 - 06/2022",
           "description": "<li>Equipment repair and maintenance. <li>Hardware and software support for clients. <li>Finding and solving problems with hardware and software."
         }
-      ]
-    },
-    "languages": {
-      "name": "Languages",
-      "items": [
+      ],
+    "languages": [
         {
           "title": "Punjabi",
           "subtitle": 5
@@ -368,11 +344,8 @@
           "title": "Spanish",
           "subtitle": 4
         }
-      ]
-    },
-    "volunteer": {
-      "name": "Volunteering",
-      "items": [
+      ],
+    "volunteering": [
         {
           "title": "CÀRITAS ARXIPRESTAL ",
           "subtitle": "Volunteer",
@@ -381,7 +354,6 @@
           "description": "<li>Enter data into the Caritas database <li>Help employees with computers <li>Translation tasks (Catalan-English, English-Catalan)."
         }
       ]
-    }
   },
   "metdaata": {
     "order": {}

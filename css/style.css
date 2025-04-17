@@ -3,8 +3,6 @@ select {
     padding: 2px;
     margin-bottom: 10px;
     font-size: 16px;
-    /* float: right;
-    margin-right: 10px; */
 }
 
 body{
@@ -13,6 +11,156 @@ body{
     padding: 10px;
 }
 .nowrap{
-    /* no breaking the text */
     white-space: nowrap;
+}
+
+.headerDiv {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.headerDiv img {
+    border-radius: 20px;
+    height: 180px;
+    margin-right: 20px;
+}
+
+.headerDiv .header-details {
+    flex: 1;
+}
+
+
+.headerDiv h1 {
+    margin: 0;
+}
+ .headerDiv p {
+    margin: 4px 0;
+}
+.headerDiv a {
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    padding-top: 5px;
+}
+.links a{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.section {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.section h2 {
+    padding: 10px 10px 0px 10px ; 
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.section h3 {
+    padding: 0;
+    margin: 0;
+}
+.section h4 {
+    padding: 0;
+    margin: 0;
+}
+.section p {
+    padding:  0;
+}
+
+.subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.subtitle a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    text-decoration: underline
+}
+.sub{
+    color: #6f6cff;
+}
+
+.item{
+    padding: 10px 15px;
+}
+
+.item p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.item-image{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.item-image img {
+    height: 60px; 
+    width: auto;
+}
+
+.screenshot{    
+    max-height: 300px !important;
+    height: auto;
+    min-height: 200px !important;
+    max-width: 100%;
+    min-width: 120px !important;
+}
+.item > .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.item > .links >a {
+    text-decoration: none;
+}
+
+.item-tags{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.tag{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.skills > .item_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px; 
+}
+
+.skills > .item_list > div {
+    border-radius: 5px;
+    flex-grow: 1;
+    flex-basis: 300px;
+    max-width: 350px;
+    padding: 10px;
+    margin: 0 !important;
 }
